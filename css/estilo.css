@@ -1,0 +1,57 @@
+.container {
+    text-align: center; /* Centralizar as divs dentro do container */
+}
+body {
+    background-color: #bca9ca; 
+}
+
+.titulo {
+    text-align: center; /* Centralizar o texto */
+    color: #6a1b9a; /* Cor do título principal em roxo mais escuro */
+    font-weight: bold; /* Texto em negrito */
+}
+
+.box {
+    display: inline-flex; /* Mudança para flex */
+    flex-direction: column; /* Colocar o texto abaixo do ícone */
+    justify-content: flex-start; /* Posicionar o conteúdo no topo verticalmente */
+    align-items: center; /* Centralizar o conteúdo horizontalmente */
+    width: 200px;
+    height: 150px;
+    background-color: #f3e5f5; 
+    margin: 10px; /* Espaçamento entre as divs */
+    padding-top: 20px; /* Espaçamento adicional na parte superior */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: 2px solid #ba68c8; /* Borda roxa mais clara */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.box img {
+    width: 32px; /* Redimensiona todas as imagens para 32px de largura */
+}
+
+.texto {
+    font-size: 20px; /*Aumentar a fonte*/
+    font-weight: bold; /* Texto em negrito */
+    margin-top: 10px; /* Espaçamento superior aumentado */
+    color: #ba68c8; 
+}
+
+.legenda {
+    font-size: 12px; /* Tamanho da fonte menor */
+    color: black; 
+    margin-top: 5px; /* Espaçamento superior para separar do título */
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7 {
+    color: #8e24aa; /* Define a cor do texto dos boxes como roxo mais escuro */
+    font-size: 16px; /* Define o tamanho da fonte como 24 pixels */
+    font-weight: bold; /* Define o estilo da fonte como negrito */
+    font-family: Georgia, 'Times New Roman', sans-serif;
+}
